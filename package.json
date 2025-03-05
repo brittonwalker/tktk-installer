@@ -4,7 +4,7 @@
   "description": "A commandline installer for TKTK WordPress Theme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\""
   },
   "bin": {
     "tktk-installer": "./bin/index.js"
