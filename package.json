@@ -1,6 +1,6 @@
 {
   "name": "tktk-installer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A commandline installer for TKTK WordPress Theme",
   "main": "index.js",
   "scripts": {
