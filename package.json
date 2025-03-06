@@ -25,11 +25,11 @@
   "author": "Britton Walker",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.4.1",
+    "@inquirer/prompts": "^7.3.2",
+    "chalk": "^4.1.2",
     "check-node-version": "^4.2.1",
     "colors": "^1.4.0",
     "commander": "^9.4.0",
-    "inquirer": "^8.2.4",
     "shelljs": "^0.8.5"
   }
 }
