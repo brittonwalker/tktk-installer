@@ -29,7 +29,7 @@ program
   .command('install')
   .alias('i')
   .description('Install the TKTK theme in a local directory')
-  .action(function () {
+  .action(async () => {
     install();
   });
 
