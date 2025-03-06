@@ -9,6 +9,11 @@
   "bin": {
     "tktk-installer": "./bin/index.js"
   },
+  "homepage": "https://github.com/brittonwalker/tktk-installer/tree/main",
+  "engines": {
+    "node": ">=20.10.0",
+    "npm": ">=10.2.3"
+  },
   "keywords": [
     "WordPress",
     "cli",
@@ -20,6 +25,8 @@
   "author": "Britton Walker",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.4.1",
+    "check-node-version": "^4.2.1",
     "colors": "^1.4.0",
     "commander": "^9.4.0",
     "inquirer": "^8.2.4",
