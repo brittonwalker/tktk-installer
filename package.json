@@ -1,28 +1,38 @@
 {
   "name": "tktk-installer",
-  "version": "1.0.1",
-  "description": "A commandline installer for TKTK WordPress Theme",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"No test specified\""
+  "version": "1.0.2",
+  "description": "A command-line installer for the TKTK WordPress Theme.",
+  "homepage": "https://github.com/brittonwalker/tktk-installer/tree/main",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brittonwalker/tktk-installer.git"
   },
+  "author": "Britton Walker",
+  "license": "ISC",
   "bin": {
     "tktk-installer": "./bin/index.js"
   },
+  "engines": {
+    "node": ">=20.10.0",
+    "npm": ">=10.2.3"
+  },
   "keywords": [
     "WordPress",
-    "cli",
+    "CLI",
     "installer",
-    "npmtool",
-    "tktk",
+    "npm-tool",
+    "TKTK",
     "theme"
   ],
-  "author": "Britton Walker",
-  "license": "ISC",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
   "dependencies": {
+    "@inquirer/prompts": "^7.3.2",
+    "chalk": "^4.1.2",
+    "check-node-version": "^4.2.1",
     "colors": "^1.4.0",
     "commander": "^9.4.0",
-    "inquirer": "^8.2.4",
     "shelljs": "^0.8.5"
   }
 }
