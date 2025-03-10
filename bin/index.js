@@ -13,6 +13,9 @@ program
   .command('install')
   .alias('i')
   .description('Install the TKTK theme')
-  .action(install); // This executes the `install.js` function
+  .option('-t, --theme-name <name>', 'Specify a custom theme name')
+  .action((options) => {
+    install(options.themeName || 'tktk-theme'); // Pass theme name if provided
+  });
 
 program.parse(process.argv);
