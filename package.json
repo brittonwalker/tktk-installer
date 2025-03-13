@@ -2,7 +2,7 @@
   "name": "tktk-installer",
   "version": "1.0.3",
   "description": "A command-line installer for the TKTK WordPress Theme.",
-  "homepage": "https://github.com/brittonwalker/tktk-installer/tree/main",
+  "homepage": "https://github.com/brittonwalker/tktk-installer#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/brittonwalker/tktk-installer.git"
